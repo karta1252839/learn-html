@@ -2,16 +2,33 @@
 【html2pug】 F1=> >html
 -----------------------------------
 【延伸模組 識別碼】
-thekalinga.bootstrap4-vscode
+( 中文 language )
 ms-ceintl.vscode-language-pack-zh-hant
+( Code 挑錯 )
 streetsidesoftware.code-spell-checker
+( Firefox )
 firefox-devtools.vscode-firefox-debug
+( Tag 核對 )
 vincaslt.highlight-matching-tag
-dbalas.vscode-html2pug
+( Image 核對 )
 kisstkondoros.vscode-gutter-preview
+( Bootstrap class 輸入 )
+☆zignd.html-css-class-completion
+( 即時觀看 liveserver )
 ritwickdey.liveserver
-msjsdiag.vscode-react-native
-shan.code-settings-sync
-octref.vetur
-vscode-icons-team.vscode-icons
+(npm 外掛模組輸入)
 fknop.vscode-npm
+( PHP code )
+felixfbecker.php-intellisense
+( )
+shan.code-settings-sync
+( Vue )
+octref.vetur
+(檔案 icons)
+vscode-icons-team.vscode-icons
+( Bootstrap4 )
+thekalinga.bootstrap4-vscode
+( Html2pug )
+dbalas.vscode-html2pug
+( React )
+msjsdiag.vscode-react-native
