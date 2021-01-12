@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- 適用需觀看-------------------------------------------- -->
+  <!-- card 可以做背景(上網複製) -->
+  <!-- https://www.w3schools.com/bootstrap4/bootstrap_cards.asp -->
+  <div class="card"></div>
+  <!-- dropdown 左右 直接在W3看 -->
+  <div class="dropdown-menu-right"></div>
+  <!-- Collapse 摺疊展開 & 開關顯示 -->
+  <div class="collapse"></div>
+  <!-- Filters 篩選器 https://www.w3schools.com/bootstrap4/bootstrap_filters.asp -->
+
+  <!-- 排版-------------------------------------------- -->
+  <!-- row-cols-3連續row(col=3) col自動分散對齊 grow其餘填滿 fill填滿(在甚麼裝置) -->
+  <div class="row row-cols-3">
+    <div class="col"></div>
+  </div>
+  <div class="col flex-grow-1 flex-md-fill"></div>
+
+  <!-- 文字-------------------------------------------- -->
+  <!-- display字體大小 text-black-50半色字體 italic斜體 small小 mark字背景標示 abbr問號顯示(特殊情況)-->
+  <p class="display-1 text-black-50"></p>
+  <p class="font-italic small">123<mark>123</mark>123</p>
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+  <!-- 大小寫文本 -->
+  <p class="text-lowercase text-uppercase text-capitalize">Use the mark element to</p>
+
+  <!-- list-------------------------------------------- -->
+  <!-- no list style -->
+  <ul class="list-unstyled">
+    <li>li</li>
+  </ul>
+  <!-- inline 字 -->
+  <ul class="list-inline">
+    <li class="list-inline-item">Coffee</li>
+    <li class="list-inline-item">Tea</li>
+    <li class="list-inline-item">Milk</li>
+  </ul>
+
+  <!-- btn-------------------------------------------- -->
+  <!-- btn-block繼承寬度 -->
+  <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  <!-- spinner-border 按鈕Loading-->
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+  <button class="btn btn-primary">
+    <span class="spinner-grow spinner-grow-sm "></span>
+    Loading..
+  </button>
+
+  <!-- border 樣式-------------------------------------------- -->
+  <span class="border border-top-0"></span>
+  <span class="rounded-bottom"></span>
+
+  <!-- order 順序逆序的-------------------------------------------- -->
+  <div class="order-3"></div>
+
+</body>
+
+</html>
