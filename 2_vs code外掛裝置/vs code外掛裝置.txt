@@ -32,3 +32,5 @@ thekalinga.bootstrap4-vscode
 dbalas.vscode-html2pug
 ( React )
 msjsdiag.vscode-react-native
+(css格式)
+aeschli.vscode-css-formatter

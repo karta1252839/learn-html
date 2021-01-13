@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google maps -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJW4jsPlNKgv6jFm3B5Edp5ywgdqLWdmc&sensor=false"></script>
+
+    <!-- google maps function-->
+    <script>
+        function initialize() {
+            var mapProp = {
+                center: new google.maps.LatLng(25.025140335938442, 121.4240409201872),
+                zoom: 16,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <title>Google maps</title>
+</head>
+
+<body>
+    <!-- google maps function html -->
+    <div id="googleMap" style="width: 1200px;height: 650px;"></div>
+    
+
+</body>
+
+</html>

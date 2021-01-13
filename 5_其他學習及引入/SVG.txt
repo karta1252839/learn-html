@@ -1,0 +1,2 @@
+svg製作(svgomg)
+https://jakearchibald.github.io/svgomg/

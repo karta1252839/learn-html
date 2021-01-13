@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- UK CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.10/dist/css/uikit.min.css" />
+
+    <!-- UK JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.10/dist/js/uikit-icons.min.js"></script>
+
+    <title>UK常用</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- Animation 各種動畫樣式--------------------------------------------------------- -->
+    <div class="uk-container">
+        <div class="uk-heading-medium uk-text-primary">
+            <p>Animation各類樣式</p>
+        </div>
+        <!-- Animation (hover動畫) -->
+        <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-grid-match" uk-grid>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-fade">
+                    <p class="uk-text-center">Fade</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-scale-up">
+                    <p class="uk-text-center">Scale Up</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-scale-down">
+                    <p class="uk-text-center">Scale Down</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-shake">
+                    <p class="uk-text-center">Shake</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left">
+                    <p class="uk-text-center">Left</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top">
+                    <p class="uk-text-center">Top</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-bottom">
+                    <p class="uk-text-center">Bottom</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-right">
+                    <p class="uk-text-center">Right</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-small">
+                    <p class="uk-text-center">Left Small</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-small">
+                    <p class="uk-text-center">Top Small</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-bottom-small">
+                    <p class="uk-text-center">Bottom Small</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-right-small">
+                    <p class="uk-text-center">Right Small</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-medium">
+                    <p class="uk-text-center">Left Medium</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-top-medium">
+                    <p class="uk-text-center">Top Medium</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-bottom-medium">
+                    <p class="uk-text-center">Bottom Medium</p>
+                </div>
+            </div>
+            <div class="uk-animation-toggle" tabindex="0">
+                <div class="uk-card uk-card-default uk-card-body uk-animation-slide-right-medium">
+                    <p class="uk-text-center">Right Medium</p>
+                </div>
+            </div>
+        </div>
+        <!-- ScrollSpy (捲動動畫) -->
+        <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body"
+                    uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <h3 class="uk-card-title">Left</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body"
+                    uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h3 class="uk-card-title">Right</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sortable 可排序物件 -->
+        <ul class="uk-grid-small uk-child-width-1-2 uk-child-width-1-4@s" uk-sortable="handle: .uk-card" uk-grid>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 1</div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 2</div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 3</div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 4</div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 5</div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 6</div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 7</div>
+            </li>
+            <li>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">Item 8</div>
+            </li>
+        </ul>
+        <!-- transition (照片動畫) -->
+        <div class="uk-child-width-1-2 uk-child-width-1-3@s uk-grid-match uk-grid-small" uk-grid>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="https://picsum.photos/1200/600" alt="">
+                    <div
+                        class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                        <p class="uk-h4 uk-margin-remove">Fade</p>
+                    </div>
+                </div>
+                <p class="uk-margin-small-top">Fade</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="https://picsum.photos/1200/600" alt="">
+                    <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                        <p class="uk-h4 uk-margin-remove">Bottom</p>
+                    </div>
+                </div>
+                <p class="uk-margin-small-top">Bottom</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                    <img src="https://picsum.photos/1200/600" alt="">
+                    <div class="uk-position-center">
+                        <span class="uk-transition-fade" uk-icon="icon: plus; ratio: 2"></span>
+                    </div>
+                </div>
+                <p class="uk-margin-small-top">Icon</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="https://picsum.photos/1200/600" alt="">
+                    <img class="uk-transition-scale-up uk-position-cover" src="https://picsum.photos/id/237/1200/600"
+                        alt="">
+                </div>
+                <p class="uk-margin-small-top">2 Images</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img class="uk-transition-scale-up uk-transition-opaque" src="https://picsum.photos/1200/600"
+                        alt="">
+                </div>
+                <p class="uk-margin-small-top">Scale Up Image</p>
+            </div>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                    <img src="https://picsum.photos/1200/600" alt="">
+                    <div class="uk-position-center">
+                        <div class="uk-transition-slide-top-small">
+                            <h4 class="uk-margin-remove">Headline</h4>
+                        </div>
+                        <div class="uk-transition-slide-bottom-small">
+                            <h4 class="uk-margin-remove">Subheadline</h4>
+                        </div>
+                    </div>
+                </div>
+                <p class="uk-margin-small-top">Small Top + Bottom</p>
+            </div>
+        </div>
+        <!-- Animation各類樣式--------------------------------------------------------- -->
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- UK CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.10/dist/css/uikit.min.css" />
+
+    <!-- UK JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.10/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.10/dist/js/uikit-icons.min.js"></script>
+
+    <title>UK常用</title>
+    <style>
+        .svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <!-- 常用--------------------------------------------------------- -->
+    <div class="uk-container">
+        <!-- Totop 跑到最上方 -->
+        <a href="#" uk-totop uk-scroll></a>
+        <!-- Accordion (相似nav 摺疊) -->
+        <div class="uk-heading-medium uk-text-primary">
+            <p>Accordion (相似nav 摺疊)</p>
+        </div>
+        <ul uk-accordion="multiple: true">
+            <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Item 1</a>
+                <div class="uk-accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">Item 2</a>
+                <div class="uk-accordion-content">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat. Duis aute irure dolor reprehenderit.</p>
+                </div>
+            </li>
+            <li>
+                <a class="uk-accordion-title" href="#">Item 3</a>
+                <div class="uk-accordion-content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                </div>
+            </li>
+        </ul>
+        <!-- Cover img+Video適中 -->
+        <div class=" uk-cover-container uk-height-large uk-mal">
+            <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" autoplay loop muted playsinline
+                uk-cover></video>
+        </div>
+        <!-- Dropdown -->
+        <button class="uk-button uk-button-default" type="button">Hover</button>
+        <div uk-dropdown>
+            <ul class="uk-nav uk-dropdown-nav">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Item</a></li>
+            </ul>
+        </div>
+        <!-- Leader閱讀虛線 (b4應該也有) -->
+        <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-expand" uk-leader>Lorem ipsum dolor sit amet</div>
+            <div>$20.90</div>
+        </div>
+        <!-- Modal 可全螢幕 -->
+        <a class="uk-button uk-button-default" href="#modal-full" uk-toggle>Open</a>
+        <div id="modal-full" class="uk-modal-full" uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                    <div class="uk-background-center-center"
+                        style="background-image: url('https://picsum.photos/1200/600');" uk-height-viewport></div>
+                    <div class="uk-padding-large">
+                        <h1>Headline</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav 漢堡選單-->
+        <div class="row">
+            <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>Open</a>
+            <div id="offcanvas-slide" uk-offcanvas>
+                <div class="uk-offcanvas-bar">
+                    <ul class="uk-nav uk-nav-default">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li class="uk-nav-header">Header</li>
+                        <li><a href="#">Item</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li class="uk-nav-divider"></li>
+                        <li><a href="#">Item</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!-- Off-canvas 漢堡選單升級版-->
+        <button class="uk-button uk-button-default uk-margin-small-right" type="button"
+            uk-toggle="target: #offcanvas-slide">Slide</button>
+
+        <button class="uk-button uk-button-default uk-margin-small-right" type="button"
+            uk-toggle="target: #offcanvas-push">Push</button>
+
+        <button class="uk-button uk-button-default uk-margin-small-right" type="button"
+            uk-toggle="target: #offcanvas-reveal">Reveal</button>
+
+        <button class="uk-button uk-button-default uk-margin-small-right" type="button"
+            uk-toggle="target: #offcanvas-none">None</button>
+        <div id="offcanvas-slide" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <h3>Title</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+
+            </div>
+        </div>
+        <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <h3>Title</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+
+            </div>
+        </div>
+        <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <h3>Title</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+
+            </div>
+        </div>
+        <div id="offcanvas-none" uk-offcanvas="mode: none; overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <h3>Title</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+
+            </div>
+        </div>
+        <!-- Notification 通知 -->
+        <p uk-margin>
+            <button class="uk-button uk-button-default" type="button"
+                onclick="UIkit.notification({message: 'Top Left...', pos: 'top-left'})">Top Left</button>
+            <button class="uk-button uk-button-default" type="button"
+                onclick="UIkit.notification({message: 'Top Center...', pos: 'top-center'})">Top Center</button>
+            <button class="uk-button uk-button-default" type="button"
+                onclick="UIkit.notification({message: 'Top Right...', pos: 'top-right'})">Top Right</button>
+            <button class="uk-button uk-button-default" type="button"
+                onclick="UIkit.notification({message: 'Bottom Left...', pos: 'bottom-left'})">Bottom Left</button>
+            <button class="uk-button uk-button-default" type="button"
+                onclick="UIkit.notification({message: 'Bottom Center...', pos: 'bottom-center'})">Bottom Center</button>
+            <button class="uk-button uk-button-default" type="button"
+                onclick="UIkit.notification({message: 'Bottom Right...', pos: 'bottom-right'})">Bottom Right</button>
+        </p>
+        <!-- Switcher (相似navs切換台) -->
+        <ul class="uk-subnav uk-subnav-pill" uk-switcher="connect: .switcher-container">
+            <li><a href="#">Active</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+        </ul>
+
+        <h4>Container 1</h4>
+
+        <ul class="uk-switcher switcher-container uk-margin">
+            <li>Hello!</li>
+            <li>Hello again!</li>
+            <li>Bazinga!</li>
+        </ul>
+
+        <h4>Container 2</h4>
+
+        <ul class="uk-switcher switcher-container uk-margin">
+            <li>Hello! The first item.</li>
+            <li>Hello again! The second item.</li>
+            <li>Bazinga! The third item.</li>
+        </ul>
+        <!-- Tab 切換樣式 -->
+        <ul uk-tab>
+            <li class="uk-active"><a href="#">Left</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li class="uk-disabled"><a>Disabled</a></li>
+        </ul>
+        <!-- Toggle 切換樣式 -->
+        <button class="uk-button uk-button-default" type="button"
+            uk-toggle="target: #toggle-animation-multiple; animation:  uk-animation-slide-left, uk-animation-slide-bottom">Toggle</button>
+        <div id="toggle-animation-multiple" class="uk-card uk-card-default uk-card-body uk-margin-small">Animation</div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
