@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en" style='font-family: "Microsoft YaHei", sans-serif;'>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- IE兼容 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- w3 -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- JQ -->
+    <!-- <script src="./jquery/jquery-1.10.js"></script> -->
+    <script src="./jquery/jquery-3.5.1.min.js"></script>
+    <script src="../js/Addhtml.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>indexLogin</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar --------------------------------------------------------------->
+    <div class="w3-sidebar w3-bar-block" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+        <div class="w3-container">
+            <h1>My Page</h1>
+        </div>
+    </div>
+
+    <img src="https://picsum.photos/200/300" alt="Car" class="h-25">
+
+    <div class="w3-container">
+        <p>In this example, the sidebar is hidden (style="display:none")</p>
+        <p>It is shown when you click on the menu icon in the top left corner.</p>
+        <p>When it is opened, it hides all the page content (style.width="100%").</p>
+    </div>
+
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+    <!-- Navigation Tabs --------------------------------------------------------------->
+
+    <div class="w3-sidebar w3-bar-block w3-black w3-card" style="width:130px">
+        <h5 class="w3-bar-item">Menu</h5>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')">Fade</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')">Left</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Right')">Right</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')">Top</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Bottom')">Bottom</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')">Zoom</button>
+    </div>
+
+    <div style="margin-left:130px">
+        <div class="w3-padding">Use any of the w3-animate-classes to fade, zoom or slide in tab content.</div>
+
+        <div id="Fade" class="w3-container city w3-animate-opacity" style="display:none">
+            <h2>Fade in</h2>
+            <p>London is the capital city of England.</p>
+            <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million
+                inhabitants.</p>
+        </div>
+
+        <div id="Left" class="w3-container city w3-animate-left" style="display:none">
+            <h2>Slide in from left</h2>
+            <p>Paris is the capital of France.</p>
+            <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.
+            </p>
+        </div>
+
+        <div id="Top" class="w3-container city w3-animate-top" style="display:none">
+            <h2>Slide in from top</h2>
+            <p>Tokyo is the capital of Japan.</p>
+            <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+        </div>
+
+        <div id="Right" class="w3-container city w3-animate-right" style="display:none">
+            <h2>Slide in from right</h2>
+            <p>London is the capital city of England.</p>
+            <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million
+                inhabitants.</p>
+        </div>
+
+        <div id="Bottom" class="w3-container city w3-animate-bottom" style="display:none">
+            <h2>Slide in from bottom</h2>
+            <p>Paris is the capital of France.</p>
+            <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.
+            </p>
+        </div>
+
+        <div id="Zoom" class="w3-container city w3-animate-zoom" style="display:none">
+            <h2>Zoom in</h2>
+            <p>Tokyo is the capital of Japan.</p>
+            <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+        </div>
+
+    </div>
+
+    <script>
+        function openLink(evt, animName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+            }
+            document.getElementById(animName).style.display = "block";
+            evt.currentTarget.className += " w3-red";
+        }
+    </script>
+
+    <!-- Slideshow --------------------------------------------------------------->
+    <div class="w3-container">
+        <h2>Slideshow Indicators</h2>
+        <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user
+            is currently viewing.</p>
+    </div>
+
+    <div class="w3-content w3-display-container" style="max-width:800px">
+        <img class="mySlides" src="https://picsum.photos/id/87/1200" style="width:100%">
+        <img class="mySlides" src="https://picsum.photos/id/88/1200" style="width:100%">
+        <img class="mySlides" src="https://picsum.photos/id/89/1200" style="width:100%">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+            style="width:100%">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)">1</span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)">2</span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)">3</span>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-white";
+        }
+    </script>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

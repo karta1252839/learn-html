@@ -2,6 +2,8 @@
 【html2pug】 F1=> >html
 -----------------------------------
 【延伸模組 識別碼】
+(fontawesome)
+janne252.fontawesome-autocomplete
 ( 中文 language )
 ms-ceintl.vscode-language-pack-zh-hant
 ( Code 挑錯 )
