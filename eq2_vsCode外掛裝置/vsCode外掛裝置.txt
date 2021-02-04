@@ -36,3 +36,11 @@ dbalas.vscode-html2pug
 msjsdiag.vscode-react-native
 (css格式)
 aeschli.vscode-css-formatter
+(js新增檔案自動import)
+capaj.vscode-exports-autocomplete
+(JS & CSS 縮小器)
+olback.es6-css-minify
+(js自動完成片段(一點小用))
+runningcoder.js-snippets
+(JS...等自動完成片段)
+tabnine.tabnine-vscode
