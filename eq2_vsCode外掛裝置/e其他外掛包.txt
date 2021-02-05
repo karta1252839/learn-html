@@ -19,3 +19,21 @@ formulahendry.auto-rename-tag
 
 snippet 選取code剪取片段
 nikitakunevich.snippet-creator
+
+(JS...等自動完成片段)
+tabnine.tabnine-vscode
+
+(js自動完成片段(一點小用))
+runningcoder.js-snippets
+-----------------------------------------
+( filesize )
+mkxml.vscode-filesize
+
+( Import Cost 外部資源的大小 )
+wix.vscode-import-cost
+
+( favorites 分開自己寫的檔案 )
+howardzuo.vscode-favorites
+
+( Polacode 程式碼拍照 )程式碼貼文前也需要個好框框
+pnp.polacode

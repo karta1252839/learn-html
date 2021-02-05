@@ -22,6 +22,10 @@ ritwickdey.liveserver
 fknop.vscode-npm
 ( PHP code )
 felixfbecker.php-intellisense
+( JQ )
+donjayamanne.jquerysnippets
+( indent-rainbow 分隔code區段 )
+oderwat.indent-rainbow
 ( )
 shan.code-settings-sync
 ( Vue )
@@ -40,7 +44,3 @@ aeschli.vscode-css-formatter
 capaj.vscode-exports-autocomplete
 (JS & CSS 縮小器)
 olback.es6-css-minify
-(js自動完成片段(一點小用))
-runningcoder.js-snippets
-(JS...等自動完成片段)
-tabnine.tabnine-vscode
