@@ -1,0 +1,13 @@
+( html json 快速輸入片段 )
+ctrl+shift+p 輸入snippets 再輸入html 打入片段
+
+"my vue html code": {
+		"prefix": "linhead",
+		"body": [
+			],
+		"description": "Log output to console"
+	}
+}
+
+prefix = 使用者片段輸入名稱
+body = 要放的html (1.先把雙引號改為單引號 2.頭尾加雙引號 3.再縮成一行(建議從最後面開始退位鍵盤))
