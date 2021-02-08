@@ -1,0 +1,3 @@
+.linScrollbarHide::-webkit-scrollbar {
+            display: none;
+        }
