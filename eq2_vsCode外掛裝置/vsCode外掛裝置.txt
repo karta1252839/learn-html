@@ -44,3 +44,5 @@ aeschli.vscode-css-formatter
 capaj.vscode-exports-autocomplete
 (JS & CSS 縮小器)
 olback.es6-css-minify
+(遞增排序數字)
+albymor.increment-selection
