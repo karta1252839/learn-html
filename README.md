@@ -6,5 +6,5 @@ https://sensitively.app/download
 【內部整理資訊網站】
 https://karta1252839.github.io/save-html/index.html
 
-查詢codd pan
+查詢codd pan_
 jquery plugin tabs
