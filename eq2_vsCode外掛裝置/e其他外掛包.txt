@@ -58,3 +58,5 @@ aessoft.aessoft-class-autocomplete
 wix.vscode-import-cost
 ( vs背景更換 )
 asuka.insertnumbers
+( jumpy )
+wmaurer.vscode-jumpy
