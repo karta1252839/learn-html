@@ -50,3 +50,15 @@ capaj.vscode-exports-autocomplete
 olback.es6-css-minify
 (遞增排序數字)
 albymor.increment-selection
+
+
+Design in the Browser Extension Pack 安裝包
+craigcecil.vscode-design-in-browser-pack
+
+【Design in the Browser Extension Pack 內部適用的套件】
+Git History 歷史紀錄
+donjayamanne.githistory
+HTMLHint 提示片段
+mkaufman.htmlhint
+Preview on Web Server 瀏覽器及內部預演
+yuichinukiyama.vscode-preview-server
