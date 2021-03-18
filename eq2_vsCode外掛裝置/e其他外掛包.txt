@@ -14,9 +14,6 @@ yuichinukiyama.vscode-preview-server
 Can I Use 可以看哪個瀏覽器可使用
 akamud.vscode-caniuse
 
-讓成對的標籤自動一起修改
-formulahendry.auto-rename-tag
-
 snippet 選取code剪取片段
 nikitakunevich.snippet-creator
 
