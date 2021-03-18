@@ -30,7 +30,7 @@ felixfbecker.php-intellisense
 donjayamanne.jquerysnippets
 ( indent-rainbow 分隔code區段 )
 oderwat.indent-rainbow
-( )
+( 設置同步 )
 shan.code-settings-sync
 ( Vue )
 octref.vetur
