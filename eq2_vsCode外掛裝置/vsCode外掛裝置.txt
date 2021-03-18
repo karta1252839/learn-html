@@ -42,8 +42,8 @@ thekalinga.bootstrap4-vscode
 dbalas.vscode-html2pug
 ( React )
 msjsdiag.vscode-react-native
-(css格式)
-aeschli.vscode-css-formatter
+( html css js 格式器 )
+lonefy.vscode-js-css-html-formatter
 (js新增檔案自動import)
 capaj.vscode-exports-autocomplete
 (JS & CSS 縮小器)
