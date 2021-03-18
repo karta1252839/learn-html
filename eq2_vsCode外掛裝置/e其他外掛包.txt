@@ -3,12 +3,22 @@
 dbaeumer.vscode-eslint
 (exports-autocomplete)
 capaj.vscode-exports-autocomplete
+( axios-snippets )
+loyalpotato.axios-snippets
+presidentma.axios-snippets
+yggdrasill-7c9.axios-snippets
 
 【V用到的】
 ( stylus )
 sysoev.language-stylus
 ( npm 外掛模組輸入 )
 fknop.vscode-npm
+( vue 必用 )
+octref.vetur
+( vue 片段 )
+vaniship.vue-ls-snippets
+( vue 排版 )
+peakchen90.vue-beautify
 
 【可能需要的】
 Can I Use 可以看哪個瀏覽器可使用
@@ -34,3 +44,9 @@ howardzuo.vscode-favorites
 
 ( Polacode 程式碼拍照 )程式碼貼文前也需要個好框框
 pnp.polacode
+
+( Bootstrap4 )
+thekalinga.bootstrap4-vscode
+
+( class 自動完成 )
+aessoft.aessoft-class-autocomplete
