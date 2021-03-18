@@ -7,6 +7,8 @@ capaj.vscode-exports-autocomplete
 loyalpotato.axios-snippets
 presidentma.axios-snippets
 yggdrasill-7c9.axios-snippets
+( node-snippets )
+chris-noring.node-snippets
 
 【V用到的】
 ( stylus )
