@@ -52,3 +52,9 @@ thekalinga.bootstrap4-vscode
 
 ( class 自動完成 )
 aessoft.aessoft-class-autocomplete
+
+【 不需要 】
+( import-cost )
+wix.vscode-import-cost
+( vs背景更換 )
+asuka.insertnumbers
