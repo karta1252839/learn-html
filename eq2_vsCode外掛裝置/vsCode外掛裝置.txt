@@ -61,5 +61,9 @@ yuichinukiyama.vscode-preview-server
 【 可能會用到的 】
 ( 括弧分色器 )
 coenraads.bracket-pair-colorizer
-( code拍照 )
+( picsum隨機產生圖片 )
 huang-an-sheng.lorem-picsum-photos-snippets
+( code拍照 )
+jeff-hykin.polacode-2019
+( preview-server預覽 )
+yuichinukiyama.vscode-preview-server
