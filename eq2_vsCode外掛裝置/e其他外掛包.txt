@@ -19,6 +19,8 @@ octref.vetur
 vaniship.vue-ls-snippets
 ( vue 排版 )
 peakchen90.vue-beautify
+( html2pug )
+dbalas.vscode-html2pug
 
 【可能需要的】
 Can I Use 可以看哪個瀏覽器可使用
