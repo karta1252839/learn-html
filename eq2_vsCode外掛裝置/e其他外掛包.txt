@@ -4,6 +4,10 @@ dbaeumer.vscode-eslint
 (exports-autocomplete)
 capaj.vscode-exports-autocomplete
 
+【V用到的】
+( stylus )
+sysoev.language-stylus
+
 【可能需要的】
 Can I Use 可以看哪個瀏覽器可使用
 akamud.vscode-caniuse
