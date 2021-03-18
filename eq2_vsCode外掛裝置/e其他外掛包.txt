@@ -9,6 +9,8 @@ presidentma.axios-snippets
 yggdrasill-7c9.axios-snippets
 ( node-snippets )
 chris-noring.node-snippets
+( promise-snippets )
+progre.promise-snippets
 
 【V用到的】
 ( stylus )
