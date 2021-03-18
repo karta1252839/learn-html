@@ -22,8 +22,6 @@ kisstkondoros.vscode-gutter-preview
 ☆zignd.html-css-class-completion
 ( 即時觀看 liveserver )
 ritwickdey.liveserver
-(npm 外掛模組輸入)
-fknop.vscode-npm
 ( PHP code )
 felixfbecker.php-intellisense
 ( JQ )
