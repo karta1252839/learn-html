@@ -67,3 +67,5 @@ huang-an-sheng.lorem-picsum-photos-snippets
 jeff-hykin.polacode-2019
 ( preview-server預覽 )
 yuichinukiyama.vscode-preview-server
+( vscode-icons )
+emmanuelbeziat.vscode-great-icons
