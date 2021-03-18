@@ -34,8 +34,6 @@ shan.code-settings-sync
 octref.vetur
 (檔案 icons)
 vscode-icons-team.vscode-icons
-( Bootstrap4 )
-thekalinga.bootstrap4-vscode
 ( Html2pug )
 dbalas.vscode-html2pug
 ( React )
