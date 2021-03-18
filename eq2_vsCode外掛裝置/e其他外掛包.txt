@@ -7,6 +7,8 @@ capaj.vscode-exports-autocomplete
 【V用到的】
 ( stylus )
 sysoev.language-stylus
+( npm 外掛模組輸入 )
+fknop.vscode-npm
 
 【可能需要的】
 Can I Use 可以看哪個瀏覽器可使用
