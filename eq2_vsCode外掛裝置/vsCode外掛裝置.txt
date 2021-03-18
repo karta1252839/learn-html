@@ -8,6 +8,8 @@ formulahendry.auto-rename-tag
 janne252.fontawesome-autocomplete
 ( 中文 language )
 ms-ceintl.vscode-language-pack-zh-hant
+(css-peek)
+pranaygp.vscode-css-peek
 ( Code 挑錯 )
 streetsidesoftware.code-spell-checker
 ( Firefox )
