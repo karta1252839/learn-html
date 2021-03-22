@@ -7,3 +7,6 @@ https://sensitively.app/download
 https://karta1252839.github.io/save-html/index.html
 
 網頁查詢codd pan關鍵字___jquery plugin tabs
+
+查看各裝置
+https://responsively.app/
