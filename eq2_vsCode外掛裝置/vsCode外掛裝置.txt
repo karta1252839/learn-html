@@ -18,6 +18,8 @@ firefox-devtools.vscode-firefox-debug
 vincaslt.highlight-matching-tag
 ( Image 核對 )
 kisstkondoros.vscode-gutter-preview
+( bookmarksng 書籤 )
+rk.bookmarksng
 ( Bootstrap class 輸入 )
 ☆zignd.html-css-class-completion
 ( 即時觀看 liveserver )
