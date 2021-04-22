@@ -13,27 +13,19 @@
 </head>
 
 <body>
-    <!-- app -->
     <div id="app">
-        <p>人民幣: {{priceA}} 轉換 台幣: {{priceB}} </p>
-        <input type="text" v-model="priceA">
+        <input v-model="message" type="text" placeholder="請輸入關鍵字" />
+        <p>{{ message }}</p>
+        <!-- <button @click="btnClick()">GO</button> -->
     </div>
 
     <script>
-        // app
         var app = new Vue({
             el: '#app',
             data: {
-                priceA: 0,
-                priceB: 0,
+                message: '',
             },
-            watch: {
-                priceB: function (newVal, oldVal) {
-                    console.log(newVal, oldVal);
-                    this.priceB = Math.round(priceA * 5);
-                }
-            },
-
+            
         });
     </script>
 
