@@ -10,3 +10,7 @@ https://karta1252839.github.io/save-html/index.html
 
 查看各裝置
 https://responsively.app/
+
+【美術】
+壓縮圖
+https://squoosh.app/
